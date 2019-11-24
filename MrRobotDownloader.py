@@ -11,6 +11,7 @@ import argparse
 #Downloading Modules
 print("Downloading Addons")
 os.system("wget https://raw.githubusercontent.com/d3417/Mr-Robot-Downloader/modules/speedvideo.py")
+os.system("wget https://raw.githubusercontent.com/d3417/Mr-Robot-Downloader/modules/streamsite.py")
 #Importing SpeedVideo Catcher
 import sys
 sys.path.append('')
