@@ -6,3 +6,7 @@ Mr Robot Downloader for all Seasons in ITA thx to CatchTheStream Modules.
 ## [Releases](https://github.com/d3417/Mr-Robot-Downloader/releases) compiled for Windows and Linux.
 
 
+
+### Screenshot
+
+![Mr-Robot-Downloader Screenshot of main()](https://i.imgur.com/xM8qtXM.png)
