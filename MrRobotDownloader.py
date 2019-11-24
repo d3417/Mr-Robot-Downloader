@@ -10,8 +10,7 @@ import argparse
 
 #Downloading Modules
 print("Downloading Addons")
-os.system("wget https://download1324.mediafire.com/djtqtv9yuhyg/kqtyfyrzwlxd996/speedvideo.py")
-os.system("wget https://download853.mediafire.com/52ynclmz60yg/ernhf1d7hsvc0h6/streamsite.py")
+os.system("wget https://raw.githubusercontent.com/d3417/Mr-Robot-Downloader/modules/speedvideo.py")
 #Importing SpeedVideo Catcher
 import sys
 sys.path.append('')
@@ -37,21 +36,6 @@ main()
 site = speedVideo()
 
 print(bcolors.OKBLUE + "This script was made thanks to the CatchTheStream Python Module for SpeedVideo Streaming (work as a grabber) imported remotely by httpimport Python Module from a webhost called anonfile.com with the zipped file uploaded containing the module taken from CatchTheStream GitHub Repository (https://github.com/davidezanella/CatchTheStream/blob/master/speedvideo.py)\n" +bcolors.ENDC)
-
-
-### Help ###
-#parser = argparse.ArgumentParser()
-#parser.add_argument("--help", help="show help",
-#                    action="store_true")
-#args = parser.parse_args()
-#if args.help:
-#	print(bcolors.OKBLUE + "Arguments: " + bcolors.ENDC)
-#print(bcolors.WARNING + "--help\n [Show this output]\n" + bcolors.ENDC)
-#print(bcolors.WARNING + "--seasonone\n [Download Season One in ITA]." + bcolors.ENDC)
-#print(bcolors.WARNING + "--seasontwo\n [DOwnload Season Two in ITA].\n" + bcolors.ENDC)
-#print(bcolors.WARNING + "--seasonthree\n [Download Season Three in ITA].\n" + bcolors.ENDC)
-#print(bcolors.WARNING + "--seasonfour\n [Download Four Four in ITA].\n" + bcolors.ENDC)
-#print(bcolors.WARNING + "--info\n [Information about this script and his costruction.]" + bcolors.ENDC)
 
 ## Season One
 print("Cercando lo stream degli episodi...")
